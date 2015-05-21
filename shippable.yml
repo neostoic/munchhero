@@ -6,5 +6,4 @@ env:
   - NODE_ENV=travis
 services:
   - mongodb
-after_success:
-  - git push git@heroku.com:heyu.git master
+
